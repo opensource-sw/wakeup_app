@@ -3,6 +3,7 @@ package com.example.opensource;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.media.AudioAttributes;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
@@ -91,6 +92,7 @@ public class MathQuiz extends AppCompatActivity {
                 }
                 else{
                     textView.setText("오답");
+                    button1.setBackgroundColor(Color.BLACK);
                     button1.setEnabled(false); //버튼비활성화
 
                     new Handler().postDelayed(new Runnable()
@@ -132,6 +134,7 @@ public class MathQuiz extends AppCompatActivity {
                 }
                 else{
                     textView.setText("오답");
+                    button2.setBackgroundColor(Color.BLACK);
                     button2.setEnabled(false); //버튼비활성화
 
                     new Handler().postDelayed(new Runnable()
@@ -173,6 +176,7 @@ public class MathQuiz extends AppCompatActivity {
                 }
                 else{
                     textView.setText("오답");
+                    button3.setBackgroundColor(Color.BLACK);
                     button3.setEnabled(false); //버튼비활성화
 
                     new Handler().postDelayed(new Runnable()
@@ -214,6 +218,7 @@ public class MathQuiz extends AppCompatActivity {
                 }
                 else{
                     textView.setText("오답");
+                    button4.setBackgroundColor(Color.BLACK);
                     button4.setEnabled(false); //버튼비활성화
 
                     new Handler().postDelayed(new Runnable()

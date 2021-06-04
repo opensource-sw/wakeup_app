@@ -25,7 +25,7 @@ public class MathProblem {
 
             "4 x 0.25=?",
 
-            "1 x 0 x 1 + 2=?"
+            "1 x 0 x 1 + 2=? "
 
     };
 
